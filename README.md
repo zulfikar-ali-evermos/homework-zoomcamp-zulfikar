@@ -1,1 +1,1 @@
-this is my repository for zoompcamp module 1 homework
+this is my repository for all of my zoomcamp homeworks
