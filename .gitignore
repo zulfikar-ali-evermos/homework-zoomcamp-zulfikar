@@ -4,3 +4,4 @@ homework_1_terraform/*.tfstate
 homework_1_terraform/*.tfstate.*
 homework_1_terraform/**.terraform
 homework_1_terraform/**.terraform.lock.*
+homework_1_terraform/gcp-credentials.json
