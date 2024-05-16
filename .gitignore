@@ -1,2 +1,6 @@
 homework_1_docker_sql/ny_taxi_postgres_data/
 homework_1_docker_sql/pgadmin_data/
+homework_1_terraform/*.tfstate
+homework_1_terraform/*.tfstate.*
+homework_1_terraform/**.terraform
+homework_1_terraform/**.terraform.lock.*
