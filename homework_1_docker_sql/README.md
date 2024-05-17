@@ -14,6 +14,7 @@ Remember that lpep_pickup_datetime and lpep_dropoff_datetime columns are in the 
 89009
 
 answer: 15612
+
 query:
     `SELECT 
         COUNT(*) AS trip_count    
@@ -37,6 +38,7 @@ Tip: For every trip on a single day, we only care about the trip with the longes
 2019-09-21
 
 answer: 2019-09=26
+
 query:
     `SELECT
         DATE(lpep_pickup_datetime) AS trip_date,
@@ -61,6 +63,7 @@ Which were the 3 pick up Boroughs that had a sum of total_amount superior to 500
 "Brooklyn" "Queens" "Staten Island"
 
 Answer: "Brooklyn" "Manhattan" "Queens"
+
 query:
     `SELECT
         "Borough",
@@ -92,6 +95,7 @@ JFK Airport
 Long Island City/Queens Plaza
 
 Answer: JFK Airport
+
 Query: `SELECT
             z_dropoff."Zone" AS dropoff_zone,
             MAX(tt.tip_amount) AS largest_tip
