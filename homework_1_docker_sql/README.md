@@ -78,7 +78,7 @@ query:
         SUM(tt.total_amount) > 50000
     ORDER BY
         total_amount_sum DESC
-    LIMIT 3;
+    LIMIT 3;`
 
 QUESTION 6. Largest tip
 
@@ -109,4 +109,4 @@ Query: `SELECT
             z_dropoff."Zone"
         ORDER BY
             largest_tip DESC
-        LIMIT 1;,
+        LIMIT 1;`
